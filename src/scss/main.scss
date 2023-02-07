@@ -1,0 +1,12 @@
+$background-color: #200;
+$font-color: #fee;
+
+::placeholder {
+    color: gray;
+}
+
+body{
+    background-color: $background-color;
+    color: $font-color;
+    font-family: 'Courier New', Courier, monospace;
+}
