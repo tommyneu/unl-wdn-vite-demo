@@ -1,2 +1,2 @@
-import "./scss/main.scss"
-import "./ts/main.ts"
+import './ts/main.ts';
+import './scss/main.scss';

@@ -5,15 +5,15 @@
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
-    "strict": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
-    "esModuleInterop": true,
     "noEmit": true,
+    "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }

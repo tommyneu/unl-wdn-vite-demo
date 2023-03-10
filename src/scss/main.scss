@@ -1,12 +1,8 @@
-$background-color: #200;
-$font-color: #fee;
+// Main will bring together all css outputting files
+// Main will not output any css itself
 
-::placeholder {
-    color: gray;
-}
-
-body{
-    background-color: $background-color;
-    color: $font-color;
-    font-family: 'Courier New', Courier, monospace;
-}
+@use "./generic"    as *;
+@use "./elements"   as *;
+@use "./objects"    as *;
+@use "./components" as *;
+@use "./utilities"  as *;
